@@ -39,6 +39,7 @@ services:
       - ./docker/backup.ftp:/backup.ftp
       - ./docker/backup.logging:/backup.logging
       - ./docker/backup.mariadb.plugin:/backup.mariadb.plugin
+      - ./docker/backup.mysql.plugin:/backup.mysql.plugin
       - ./docker/backup.misc.utils:/backup.misc.utils
       - ./docker/backup.mongo.plugin:/backup.mongo.plugin
       - ./docker/backup.mssql.plugin:/backup.mssql.plugin
