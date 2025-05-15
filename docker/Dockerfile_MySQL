@@ -20,8 +20,6 @@ ARG GOCROND_VERSION=23.2.0
 ADD https://github.com/$SOURCE_REPO/go-crond/releases/download/$GOCROND_VERSION/go-crond.linux.amd64 /usr/bin/go-crond
 
 USER root
-RUN apt-get update && apt-get install -y ca-certificates
-RUN curl https://dl.min.io/client/mc/release/linux-amd64/mc -o /bin/mc
 
 RUN chmod +x /usr/bin/go-crond
 # ========================================================================================================
