@@ -2,6 +2,7 @@ FROM quay.io/fedora/mysql-80
 
 # Change timezone to PST for convenience
 ENV TZ=PST8PDT
+ENV CURL_SSL_NO_REVOKE=1
 
 # Set the workdir to be root
 WORKDIR /
