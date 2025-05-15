@@ -48,7 +48,7 @@ export POSTGRE_DB="postgres"
 export MSSQL_DB="mssql"
 export MARIA_DB="mariadb"
 export MYSQL_DB="mysql"
-export CONTAINER_TYPE="$(getContainerType)"
+export CONTAINER_TYPE="mysql"
 
 # Other:
 export DATABASE_SERVER_TIMEOUT=${DATABASE_SERVER_TIMEOUT:-120}
