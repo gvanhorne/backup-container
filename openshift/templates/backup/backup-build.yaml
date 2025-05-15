@@ -42,16 +42,6 @@ parameters:
     description: The name assigned to all of the resources.  Use 'backup-{database name}' depending on your database provider
     required: true
     value: backup-mysql
-  - name: GIT_REPO_URL
-    displayName: Git Repo URL
-    description: The URL to your GIT repo.
-    required: true
-    value: https://github.com/gvanhorne/backup-container.git
-  - name: GIT_REF
-    displayName: Git Reference
-    description: The git reference or branch.
-    required: true
-    value: mysql
   - name: SOURCE_CONTEXT_DIR
     displayName: Source Context Directory
     description: The source context directory.
