@@ -47,6 +47,7 @@ export MONGO_DB="mongo"
 export POSTGRE_DB="postgres"
 export MSSQL_DB="mssql"
 export MARIA_DB="mariadb"
+export MYSQL_DB="mysql"
 export CONTAINER_TYPE="$(getContainerType)"
 
 # Other:
