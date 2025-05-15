@@ -343,7 +343,7 @@ parameters:
     displayName: Environment Name (Environment Id)
     description: The name or Id of the environment.  This variable is used by the webhook integration and by the NetworkSecurityPolicies to identify the environment in which the backup notifications originate.
     required: true
-    value: ""
+    value: "test"
   - name: BACKUP_DIR
     displayName: The root backup directory
     description: The name of the root backup directory.  The backup volume will be mounted to this directory.
